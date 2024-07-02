@@ -1,0 +1,68 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url(https://ca.slack-edge.com/T07466B189M-U079V4C4RK8-a9cc93c4c12a-512);
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+    }
+    .head{
+        background-color: burlywood;
+    }
+    h1{
+        text-align: center;
+        
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-around; /* Adjust as needed */
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .card {
+        width: 30%; /* Adjust width of each card */
+        margin-bottom: 20px;
+        background-color: #f0f0f0;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card section {
+        padding: 0;
+        margin: 0;
+    }
+
+    h2[data-testid="section-title"] {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: burlywood;
+        text-decoration: none;
+        color: black;
+        gap: 2px;
+    }
+    a{
+        text-decoration: none;
+        text-align: start;
+        gap: 2em;
+        color: black;
+    }
+
