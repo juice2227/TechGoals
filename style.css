@@ -4,7 +4,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-image: url(https://ca.slack-edge.com/T07466B189M-U079V4C4RK8-a9cc93c4c12a-512);
+        
         background-repeat: no-repeat;
         
         background-size: cover;
@@ -16,16 +16,37 @@
         text-align: center;
         
     }
+    .head-info{
+        flex: 1;
+    }
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.head h1[data-testid="SlackDisplayName"],
+.head a[data-testid="slackEmail"] {
+    margin: 0; 
+}
+
+.head i {
+    margin-right: 10px; 
+}
+
+
 
     .card-container {
         display: flex;
-        justify-content: space-around; /* Adjust as needed */
+        justify-content: space-around; 
         flex-wrap: wrap;
         padding: 20px;
     }
 
     .card {
-        width: 30%; /* Adjust width of each card */
+        width: 30%; 
         margin-bottom: 20px;
         background-color: #f0f0f0;
         border-radius: 8px;

@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Tech Goals</title>
 </head>
 <body>
     <header>
         <h1 data-testid="title">My Tech Goals</h1>
-        <div class="head">
-        <a href="https://hng11.slack.com/team/U079V4C4RK8" data-testid="SlackDisplayName">Slack Name</a> <br>
-        <a href="https://ca.slack-edge.com/T07466B189M-U079V4C4RK8-a9cc93c4c12a-512" data-testid="slackProfilePicture">Slack Profile pic</a> <br>
-        <a href="myceline2227@gmail.com" data-testid="slackEmail">Slack Email</a><br>
-        </div>
+        
     </header>
+    <section>
+        <div class="head">
+            
+           <img src="https://ca.slack-edge.com/T07466B189M-U079V4C4RK8-a9cc93c4c12a-512" alt="" srcset="" data-testid="slackProfilePicture" >
+           <div>
+            <a href="https://hng11.slack.com/team/U079V4C4RK8"><h1 data-testid="SlackDisplayName">Celine  Benard</h1></a>
+            <i class="fa fa-envelope" ><a href="mailto:myceline2227@gmail.com" data-testid="slackEmail"></a></i>
+            <a href="mailto:myceline2227@gmail.com" data-testid="slackEmail">myceline2227@gmail.com</a>
+               
+           </div>
+   
+           </div>
+           
+    </section>
 
     <main class="card-container">
         <div class="card">
@@ -54,7 +67,16 @@
                     <li>An AI-driven chatbot for customer support.</li>
                 </ul>
             </section>
+            
         </div>
+        
+            <div class="card-container">
+                <section class="card">
+                    <p >Current Time (UTC):<span data-testid="currentTimeUTC"></span></p>
+                    <P>Current Day:<span data-testid="currentDay"></span></P>
+                </section>
+            </card>
+        
     </main>
 
     <footer>
