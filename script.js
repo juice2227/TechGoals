@@ -18,6 +18,7 @@ function updateDateTime() {
     if (currentDayElement) {
         const options = { weekday: 'long' };
         currentDayElement.textContent = currentDate.toLocaleDateString('en-US', options); 
+        
     }
 }
 

@@ -4,10 +4,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
-        background-repeat: no-repeat;
-        
-        background-size: cover;
     }
     .head{
         background-color: burlywood;
@@ -25,11 +21,9 @@
     align-items: center;
 }
 
-
-
 .head h1[data-testid="SlackDisplayName"],
 .head a[data-testid="slackEmail"] {
-    margin: 0; 
+    margin: auto; 
 }
 
 .head i {
